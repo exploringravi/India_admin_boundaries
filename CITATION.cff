@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: >-
+  India Administrative Boundaries (ADM1 to ADM4):
+  a GeoPackage compilation for GIS teaching
+message: >-
+  If you use this compilation, please cite both this repository
+  and the underlying geoBoundaries database.
+type: dataset
+authors:
+  - given-names: Ravi Kumar
+    family-names: Pandey
+    affiliation: >-
+      Energy, Environment and Water Research Center,
+      The Cyprus Institute, Nicosia, Cyprus
+    orcid: 'https://orcid.org/YOUR-ORCID-HERE'
+repository-code: >-
+  https://github.com/cityaispace-ship-it/India_admin_boundaries
+abstract: >-
+  Administrative boundaries for India at levels ADM1 to ADM4,
+  repackaged from the geoBoundaries gbOpen release into a single
+  multi-layer GeoPackage for use in GIS training. This repository
+  contains no new boundary data; the geometries are unmodified.
+keywords:
+  - India
+  - administrative boundaries
+  - GeoPackage
+  - GIS education
+  - geoBoundaries
+version: 1.0.0
+date-released: '2026-08-25'
+references:
+  - type: article
+    title: >-
+      geoBoundaries: A global database of political
+      administrative boundaries
+    authors:
+      - given-names: Daniel
+        family-names: Runfola
+    journal: PLoS ONE
+    volume: 15
+    issue: '4'
+    year: 2020
+    doi: 10.1371/journal.pone.0231866
