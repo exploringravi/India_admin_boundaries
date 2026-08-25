@@ -1,13 +1,9 @@
-# source archives, not redistributed
-*.zip
-
-# full-resolution build, exceeds the GitHub file limit
+/*.zip
+geoBoundaries-IND-ADM*-all/
 india_adm_full.gpkg
-
-# SQLite side files
+india_adm.gpkg
+shp/
 *.gpkg-shm
 *.gpkg-wal
-
-# scratch
 tmp_check/
 __pycache__/
